@@ -27,19 +27,20 @@ urlbase = "https://mangareader.to/read/one-piece-3/en/chapter-"
 chapter = "1098"
 url = urlbase + chapter
 
+# %%
 # Path to (my) folder
 saving_path = "C:/Users/nicol/Documents/Animes Mangás HQs/One Piece/"
 saving_folder = "1101 - 1200"
 folder_path = f"{saving_path}{saving_folder}/"
 chapter_folder_path = f"{folder_path}{chapter}/"
 
+# %%
 # HTML important content
 ad_wall_finder = "z-index: 2147483647"
 privacy_iframe_id = '/html/body/iframe[1]'
 reject_all_xpath = '/html/body/div[4]/div/div[2]/div/div[4]/div[2]/div[2]/span/div/span'
 vertical_xpath = '//*[@id="first-read"]/div[1]/div/div[3]/a[1]'
 images_class = "image-vertical"
-# vertical_images_xpath = '//*[@id="vertical-content"]'
 img_div_class = 'iv-card loaded'
 
 # %%
