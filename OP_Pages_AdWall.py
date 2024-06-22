@@ -1,7 +1,10 @@
 # Importing Libraries
 from selenium.webdriver.common.action_chains import ActionChains
+
 from time import sleep
-from WebDriver_Close_All_Tabs import close_all_tabs
+
+# Importing Functions
+from OP_Pages_Close_All_Tabs import close_all_tabs
 
 
 # Function
@@ -12,7 +15,7 @@ def adwall(driver, ad_wall_finder, current_tab):
     while ad:
 
         # The ads will come up after a short time. It's no use trying other waiting types (aka webdriver waiting)
-        sleep(10)
+        sleep(7)
 
         # Storing URL content
         url_content = driver.page_source
