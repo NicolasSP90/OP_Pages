@@ -17,22 +17,29 @@ from OP_Pages_Download_IMG import download_img
 from OP_Pages_Folder import folder_chapter
 
 from OP_Pages_URL_List import list_img_url
+
+# from OP_Pages_Path_Handle import chapter_list
+
 # Importing Driver Profile
 from OP_Pages_Profile_Chrome import chrome_options
 
 # %%
 # Variables
+
+# Path to (my) folder
+chapter = "1098"
+folder_path = "C:/Users/nicol/Documents/Animes Mangás HQs/One Piece/1101 - 1200/"
+
+# Replace When Ready:
+# Path to .exe folder
+# folder_path, chapters_downloaded = chapter_list()
+# chapter = str(int(max(chapters_downloaded))+1)
+
+chapter_folder_path = folder_chapter(folder_path, chapter)
+
 # URL
 urlbase = "https://mangareader.to/read/one-piece-3/en/chapter-"
-chapter = "1098"
 url = urlbase + chapter
-
-# %%
-# Path to (my) folder
-saving_path = "C:/Users/nicol/Documents/Animes Mangás HQs/One Piece/"
-saving_folder = "1101 - 1200"
-folder_path = f"{saving_path}{saving_folder}/"
-chapter_folder_path = f"{folder_path}{chapter}/"
 
 # %%
 # HTML important content
@@ -82,9 +89,6 @@ driver.quit()
 
 # %%
 img_list = list_img_url(full_url, images_class)
-
-# %%
-folder_chapter(saving_path, saving_folder, chapter)
 
 # %%
 for link, index in zip(img_list, range(0, len(img_list))):

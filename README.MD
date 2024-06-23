@@ -14,12 +14,10 @@ For accessing the page, as a user, this is are the steps:
 
 But the thing is: ads will lock actions in the page. So basically the interaction, as a user, is the following:
  - Go to the Manga Page (with specified chapter)
- - Afew ads will pop is interacting with the page
+ - Afew ads will pop if interacting with the page
  - Reject all cookies
- - Afew ads will pop is interacting with the page
  - Select Vertical / Horizontal
- - Afew ads will pop is interacting with the page
- - NOW the page can be interacter with
+ - NOW the page can be interacted with
 
 We also have an important step that is folder and file management:
  - The images must be saved in a specific folder
@@ -30,10 +28,10 @@ I'm currently using PyCharm to work, and using OP_Pages_Main_Notebook.py as my t
 Once I'm satisfied with the results, I will transfer it to OP_Pages_Main without the notebook cells and create a executable file.
 
   ## TODO
-- [ ] Create a module to get the current path (Replacing the "Path to (my) folder" Block
-- [ ] Create a module to get Chapter folders (Replace the "chapter" variable in "Variables" Block
 - [ ] Script without notebook cells
+- [ ] Replace "Path to (my) folder" for "Path to .exe folder"
 - [ ] Create .exe
+- [ ] Testing the .exe file
 
 # Future
 Maybe in the future I will take this and create a more generic downloader.
