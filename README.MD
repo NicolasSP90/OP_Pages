@@ -27,11 +27,6 @@ We also have an important step that is folder and file management:
 I'm currently using PyCharm to work, and using OP_Pages_Main_Notebook.py as my testing and developing area.<br>
 Once I'm satisfied with the results, I will transfer it to OP_Pages_Main without the notebook cells and create a executable file.
 
-  ## TODO
-- [ ] Script without notebook cells
-- [ ] Replace "Path to (my) folder" for "Path to .exe folder"
-- [ ] Create .exe
-- [ ] Testing the .exe file
 
 # Future
 Maybe in the future I will take this and create a more generic downloader.

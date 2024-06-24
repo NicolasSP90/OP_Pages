@@ -52,7 +52,6 @@ img_div_class = 'iv-card loaded'
 
 # %%
 # Webdriver
-
 # Instancing Webdriver
 driver = webdriver.Chrome(chrome_options)
 
@@ -84,12 +83,12 @@ sleep(2)
 driver.find_element(By.TAG_NAME, "html").send_keys(Keys.END)
 sleep(2)
 
+# Getting the URL Content
 full_url = driver.page_source
 driver.quit()
 
 # %%
+# Dowlonading Images
 img_list = list_img_url(full_url, images_class)
-
-# %%
 for link, index in zip(img_list, range(0, len(img_list))):
     download_img(link, chapter_folder_path, index)
