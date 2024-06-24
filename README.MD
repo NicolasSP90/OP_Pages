@@ -28,5 +28,15 @@ I'm currently using PyCharm to work, and using OP_Pages_Main_Notebook.py as my t
 Once I'm satisfied with the results, I will transfer it to OP_Pages_Main without the notebook cells and create a executable file.
 
 
+# TODO (v1.X)
+- [ ] Instead of just downloading the next chapter, check if it is available;
+- [ ] Checking amount of available chapters
+- [ ] Folders and subfolders management
+
+# TODO (v2.0)
+- [ ] Look for a specific manga to download
+- [ ] Deal with paths for different mangas
+- [ ] Download / update folders based on available chapters (multiple chapters download)
+
 # Future
 Maybe in the future I will take this and create a more generic downloader.
