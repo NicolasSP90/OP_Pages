@@ -11,9 +11,10 @@ from time import sleep
 # Importing Functions
 from OP_Pages_AdWall import adwall
 from OP_Pages_Download_IMG import download_img
-from OP_Pages_Folder import folder_chapter
-from OP_Pages_URL_List import list_img_url
+from OP_Pages_Create_Folder import folder_chapter
+from OP_Pages_IMG_URL_List import list_img_url
 from OP_Pages_Path_Handle import chapter_list
+from OP_Pages_Chapter_URL import url_definition
 
 # Importing Driver Profile
 from OP_Pages_Profile_Chrome import chrome_options
@@ -22,12 +23,18 @@ from OP_Pages_Profile_Chrome import chrome_options
 # Path to Current Folder
 folder_path, chapters_downloaded = chapter_list()
 chapter = str(int(max(chapters_downloaded))+1)
-chapter_folder_path = folder_chapter(folder_path, chapter)
 
 
 # URL
 urlbase = "https://mangareader.to/read/one-piece-3/en/chapter-"
+
+urt = url_definition(urlbase, chapter)
+
 url = urlbase + chapter
+
+
+# Creating Folder to Chapter
+chapter_folder_path = folder_chapter(folder_path, chapter)
 
 
 # HTML important content

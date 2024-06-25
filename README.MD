@@ -29,7 +29,6 @@ Once I'm satisfied with the results, I will transfer it to OP_Pages_Main without
 
 
 # TODO (v1.X)
-- [ ] Instead of just downloading the next chapter, check if it is available;
 - [ ] Checking amount of available chapters
 - [ ] Folders and subfolders management
 
