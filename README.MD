@@ -1,3 +1,11 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![beautifulsoup](https://img.shields.io/badge/beautifulsoup-white?style=for-the-badge)
+![pyinstaller](https://img.shields.io/badge/pyinstaller-3670A0?style=for-the-badge)
+![requests](https://img.shields.io/badge/requests-3670A0?style=for-the-badge)
+![selenium](https://img.shields.io/badge/selenium-43b02a?style=for-the-badge)
+
+
+
 # Auto Download One Piece Chapters from MangaReader
 The thing is. One Piece releases around 40 chapters a year.<br>
 I've been reading it since 2005 (8 years after release in 1997) and every week I download the new released chapter.<br> 
