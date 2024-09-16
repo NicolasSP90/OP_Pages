@@ -4,7 +4,7 @@
 ![requests](https://img.shields.io/badge/requests-3670A0?style=for-the-badge)
 ![selenium](https://img.shields.io/badge/selenium-43b02a?style=for-the-badge)
 
-
+---
 
 # Auto Download One Piece Chapters from MangaReader
 The thing is. One Piece releases around 40 chapters a year.<br>
