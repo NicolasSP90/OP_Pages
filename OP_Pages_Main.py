@@ -62,8 +62,12 @@ adwall(driver, ad_wall_finder, current_tab)
 
 
 # Reject All Cookies
-reject_all_btn = driver.find_element(By.XPATH, reject_all_xpath)
-reject_all_btn.click()
+try:
+    reject_all_btn = driver.find_element(By.XPATH, reject_all_xpath)
+    reject_all_btn.click()
+except:
+    print("No Reject All Option")
+    
 
 
 # Setting Images to Vertical
